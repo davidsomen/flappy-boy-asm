@@ -10,8 +10,8 @@ DB $BB, $BB, $67, $63, $6E, $0E, $EC, $CC
 DB $DD, $DC, $99, $9F, $BB, $B9, $33, $3E
 
 ; $0134 - $013E: The title, in upper-case letters, followed by zeroes.
-DB "BITNENFER "
-DS 7 ; padding
+DB "BITNENFER"
+DS 2 ; padding
 ; $013F - $0142: The manufacturer code.
 DS 4
 ; $0143: Gameboy Color compatibility flag.    
